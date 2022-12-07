@@ -33,6 +33,7 @@ Maybe you need to install numpy, tifffile, tqdm and other package.
 
 ## Parameter
 You need to set some parameters with argparse:
+
     '--mode',  type=str, default='TS',  help="set the mode"
     '--batchsizes',  type=int, default=1,  help="set the batchsize number"
     '--gpu_id', type=str, default='0',   help="id(s) for CUDA_VISIBLE_DEVICES"
